@@ -1,0 +1,26 @@
+{
+  "name": "puppeteer-login",
+  "version": "1.0.0",
+  "description": "Automate the login flow for a given website by using Puppeteer",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hunterchristian/puppeteer-login.git"
+  },
+  "keywords": [
+    "automate",
+    "login",
+    "puppeteer"
+  ],
+  "author": "hunterhod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hunterchristian/puppeteer-login/issues"
+  },
+  "homepage": "https://github.com/hunterchristian/puppeteer-login#readme",
+  "dependencies": {
+    "@hunterhod/env-var-not-defined": "^1.2.0",
+    "puppeteer": "^1.19.0"
+  }
+}
