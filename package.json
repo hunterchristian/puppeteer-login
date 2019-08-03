@@ -1,6 +1,6 @@
 {
   "name": "puppeteer-login",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Automate the login flow for a given website by using Puppeteer",
   "main": "index.js",
   "scripts": {},
