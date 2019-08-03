@@ -1,11 +1,11 @@
 const getEnvVarIfDefined = require('@hunterhod/env-var-not-defined');
 
-module.exports = ({
+module.exports = async ({
   loginButtonElementSelector,
   page,
   passwordElementSelector,
   userIdElementSelector,
-}) => async () => {
+}) => {
   const USER_NAME = getEnvVarIfDefined('USER_NAME');
   const PASSWORD = getEnvVarIfDefined('PASSWORD');
 
