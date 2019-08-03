@@ -1,6 +1,6 @@
-import getEnvVarIfDefined from '@hunterhod/env-var-not-defined';
+const getEnvVarIfDefined = require('@hunterhod/env-var-not-defined');
 
-export default ({
+module.exports = ({
   loginButtonElementSelector,
   page,
   passwordElementSelector,
