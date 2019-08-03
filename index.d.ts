@@ -7,5 +7,5 @@ interface LoginParams {
   loginButtonElementSelector: string;
 }
 
-declare const login: (LoginParams) => Promise<void>;
+declare const login: (params: LoginParams) => Promise<void>;
 export default login;
