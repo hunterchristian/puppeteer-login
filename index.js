@@ -11,5 +11,9 @@ module.exports = async ({
 
   await page.type(userIdElementSelector, USER_NAME);
   await page.type(passwordElementSelector, PASSWORD);
-  await page.click(loginButtonElementSelector);
+
+  await Promise.all([
+    page.waitForNavigation({ waitUntil: 'networkidle0' }),
+    page.click(loginButtonElementSelector),
+  ]);
 };
